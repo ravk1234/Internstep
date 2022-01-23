@@ -3,16 +3,16 @@ Enables teenagers to apply for internships.
 
 ## Screenshots
 <p align="center">
-<img src="https://raw.githubusercontent.com/ravk1234/Parking/master/Screenshots/screen8.jpeg" height="400" width="200"/>
-  <img src="https://raw.githubusercontent.com/ravk1234/Parking/master/Screenshots/screen7.jpeg" height="400" width="200"/>
-  <img src="https://raw.githubusercontent.com/ravk1234/Parking/master/Screenshots/screen6.jpeg" height="400" width="200"/>
+<img src="https://raw.githubusercontent.com/ravk1234/Parking/master/screen8.jpeg" height="400" width="200"/>
+  <img src="https://raw.githubusercontent.com/ravk1234/Parking/master/screen7.jpeg" height="400" width="200"/>
+  <img src="https://raw.githubusercontent.com/ravk1234/Parking/master/screen6.jpeg" height="400" width="200"/>
 </p>
 <p align="center">
-<img src="https://raw.githubusercontent.com/ravk1234/Parking/master/Screenshots/screen5.jpeg" height="400" width="200"/>
-<img src="https://raw.githubusercontent.com/ravk1234/Parking/master/Screenshots/screen4.jpeg" height="400" width="200"/>
-<img src="https://raw.githubusercontent.com/ravk1234/Parking/master/Screenshots/screen3.jpeg" height="400" width="200"/>
-<img src="https://raw.githubusercontent.com/ravk1234/Parking/master/Screenshots/screen2.jpeg" height="400" width="200"/>
-<img src="https://raw.githubusercontent.com/ravk1234/Parking/master/Screenshots/screen1.jpeg" height="400" width="200"/>
+<img src="https://raw.githubusercontent.com/ravk1234/Parking/master/screen5.jpeg" height="400" width="200"/>
+<img src="https://raw.githubusercontent.com/ravk1234/Parking/master/screen4.jpeg" height="400" width="200"/>
+<img src="https://raw.githubusercontent.com/ravk1234/Parking/master/screen3.jpeg" height="400" width="200"/>
+<img src="https://raw.githubusercontent.com/ravk1234/Parking/master/screen2.jpeg" height="400" width="200"/>
+<img src="https://raw.githubusercontent.com/ravk1234/Parking/master/screen1.jpeg" height="400" width="200"/>
 </p>
 ## Features
 * Register using your email and easily create your profile.
