@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <RelativeLayout
+        android:id="@+id/toolbar_mainprofile"
+        android:layout_width="match_parent"
+        android:layout_height="128dp"
+        android:elevation="20dp">
+
+        <TextView
+            android:id="@+id/myprofile"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="40dp"
+            android:fontFamily="@font/popiins"
+            android:text="MY PROFILE"
+            android:textSize="20sp">
+
+        </TextView>
+
+        <Button
+            android:id="@+id/search_text"
+            style="@style/Widget.AppCompat.Button.Borderless"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_marginLeft="60dp"
+            android:layout_marginTop="35dp"
+            android:layout_toRightOf="@+id/myprofile"
+            android:background="@drawable/ic_more_horiz_black_24dp">
+
+        </Button>
+
+    </RelativeLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/toolbar_mainprofile">
+
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:id="@+id/linear_layout_profile">
+
+                <de.hdodenhof.circleimageview.CircleImageView
+                    android:layout_marginStart="40dp"
+                    android:layout_width="80dp"
+                    android:layout_height="80dp"
+                    android:src="@drawable/person"
+                    android:id="@+id/person"
+                    >
+
+                </de.hdodenhof.circleimageview.CircleImageView>
+
+
+
+                <TextView
+                    android:layout_toEndOf="@+id/person"
+                    android:layout_marginStart="40dp"
+                    android:layout_centerVertical="true"
+                    android:id="@+id/name"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/popiins"
+                    android:text="James Johnson"
+                    android:textColor="@android:color/black"
+                    android:textSize="18sp">
+
+                </TextView>
+
+
+
+
+            </RelativeLayout>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/linear_layout_profile"
+                android:layout_marginTop="40dp"
+                android:layout_marginStart="40dp"
+                android:text="User Interface"
+                android:textSize="15sp"
+                android:textColor="@color/colorPrimaryDark"
+                android:fontFamily="@font/popiins"
+                android:id="@+id/nameofskill">
+
+            </TextView>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Description about the same"
+                android:layout_toRightOf="@+id/nameofskill"
+                android:layout_marginStart="20dp"
+                android:textSize="15sp"
+                android:layout_marginTop="40dp"
+                android:fontFamily="@font/opensans"
+                android:id="@+id/description"
+                android:layout_below="@+id/linear_layout_profile">
+
+            </TextView>
+
+            <RelativeLayout
+                android:id="@+id/relative_layout_socialmedia"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/nameofskill"
+                android:orientation="horizontal"
+                android:layout_marginTop="40dp"
+                android:layout_centerHorizontal="true">
+
+                <ImageView
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+
+                    android:layout_marginStart="40dp"
+                    android:id="@+id/github"
+                    android:src="@drawable/github_color">
+
+                </ImageView>
+                <ImageView
+                    android:layout_centerHorizontal="true"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="40dp"
+                    android:id="@+id/linkedin"
+                    android:src="@drawable/linkedin_coloured">
+
+                </ImageView>
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+
+                    android:layout_marginStart="85dp"
+                    android:id="@+id/dribble"
+                    android:layout_toRightOf="@+id/linkedin"
+                    android:src="@drawable/dribble_color">
+
+                </ImageView>
+
+            </RelativeLayout>
+
+
+
+
+
+        </RelativeLayout>
+    </ScrollView>
+
+
+
+</RelativeLayout>

@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="20dp"
+    android:elevation="20dp"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+
+
+    >
+    <LinearLayout
+        android:id="@+id/linear_layout_companyname"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:orientation="horizontal"
+        >
+
+        <ImageView
+            android:id="@+id/company_logo"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_marginStart="40dp"
+            android:src="@drawable/google">
+
+        </ImageView>
+
+        <TextView
+            android:id="@+id/job_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Jr.Product Designer"
+            android:fontFamily="@font/popiins"
+            android:layout_marginStart="40dp"
+            android:layout_marginTop="20dp"
+            android:textColor="#000000"
+            >
+
+        </TextView>
+
+        <ImageView
+            android:id="@+id/next"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="20dp"
+            android:src="@drawable/ic_keyboard_arrow_right_black_24dp"
+            >
+
+        </ImageView>
+
+    </LinearLayout>
+</androidx.cardview.widget.CardView>

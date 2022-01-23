@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    >
+
+    <RelativeLayout
+        android:id="@+id/toolbar_mydocs"
+        android:layout_width="match_parent"
+        android:layout_height="128dp"
+        android:background="#FFFFFF"
+        android:textAlignment="center"
+        android:elevation="20dp">
+
+        <Button
+            android:id="@+id/toolbar_back_mydocs"
+            style="?android:attr/borderlessButtonStyle"
+            android:layout_width="24dp"
+            android:layout_height="24dp"
+            android:layout_marginStart="40dp"
+            android:layout_marginTop="45dp"
+            android:background="@drawable/ic_arrow_back_black">
+
+        </Button>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="40dp"
+            android:fontFamily="@font/popiins"
+            android:text="My Documents"
+            android:textSize="20sp"
+            android:textStyle="bold"
+
+            />
+    </RelativeLayout>
+
+
+
+
+
+    <ImageView
+        android:layout_width="300dp"
+        android:layout_height="250dp"
+        android:background="@drawable/idcard"
+        android:layout_below="@+id/toolbar_mydocs"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="40dp"
+        android:id="@+id/folder">
+
+    </ImageView>
+
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Continue without your former id card if you are under 18"
+        android:textSize="18sp"
+        android:textAlignment="center"
+        android:textColor="@android:color/darker_gray"
+        android:fontFamily="@font/opensans"
+        android:layout_below="@+id/folder"
+        android:layout_centerHorizontal="true"
+        android:layout_marginEnd="40dp"
+        android:layout_marginTop="40dp"
+        android:id="@+id/text1">
+
+    </TextView>
+
+    <Button
+        android:id="@+id/submit"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:background="@drawable/button"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/text1"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="40dp"
+        android:text="CONTINUE"
+        android:textAllCaps="false"
+        style="@style/Widget.AppCompat.Button.Borderless"
+        android:fontFamily="@font/popiins"
+        android:textSize="15sp"
+        android:textColor="@android:color/white"
+        android:layout_marginEnd="40dp"
+
+        >
+
+    </Button>
+</RelativeLayout>

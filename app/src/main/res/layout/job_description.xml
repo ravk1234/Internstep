@@ -1,0 +1,274 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="120dp"
+        android:id="@+id/toolbar_job_description"
+        android:background="#FFFFFF"
+        android:elevation="20dp">
+
+
+        <Button
+            android:layout_width="24dp"
+            android:layout_height="24dp"
+            android:layout_marginStart="40dp"
+            android:layout_marginTop="50dp"
+            style="?android:attr/borderlessButtonStyle"
+            android:id="@+id/toolbar_back_job_description"
+            android:background="@drawable/ic_arrow_back_black">
+
+        </Button>
+
+        <ImageView
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:src="@drawable/google"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="20dp"
+            android:id="@+id/company_logo">
+
+        </ImageView>
+
+
+    </RelativeLayout>
+    <ScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/toolbar_job_description">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:orientation="vertical"
+            android:layout_marginStart="20dp"
+            android:layout_marginEnd="20dp"
+            android:layout_below="@+id/toolbar_job_description"
+            android:layout_height="wrap_content">
+
+
+
+            <TextView
+                android:id="@+id/job_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+
+                android:layout_marginTop="20dp"
+                android:fontFamily="@font/montserrat_bols"
+                android:textColor="@color/colorPrimaryDark"
+                android:text="Job name"
+                android:textSize="18sp"
+                android:textStyle="bold">
+
+            </TextView>
+            <TextView
+                android:id="@+id/description"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+
+                android:layout_marginTop="20dp"
+                android:layout_marginEnd="20dp"
+                android:layout_marginStart="10dp"
+                android:fontFamily="@font/opensans"
+                android:text="We are looking for a Video Editor and Animation Interns that will help us in editing and building enterprise.
+"
+                android:textSize="18sp">
+
+            </TextView>
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_marginTop="20dp"
+                >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Responsibilities"
+                    android:textSize="19sp"
+                    android:id="@+id/responsibilities"
+                    android:textStyle="bold"
+                    android:fontFamily="@font/montserrat_bols"
+                    android:textColor="@color/colorPrimaryDark">
+
+                </TextView>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textStyle="normal"
+                    android:text="Editing and assembling raw footage | Creating animated videos | Working on YouTube Videos | Working on sound effects, graphics, and special effects | Recording and editing videos made for various projects using Adobe Premiere Pro/Adobe After Effects/ Adobe Audition"
+                    android:maxLines="12"
+                    android:layout_marginEnd="20dp"
+                    android:layout_marginStart="10dp"
+                    android:textSize="16sp"
+                    android:layout_marginTop="10dp"
+                    android:fontFamily="@font/opensans"
+                    android:id="@+id/responsibilities_content"
+                    >
+
+                </TextView>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Experience"
+                    android:textSize="19sp"
+                    android:layout_marginTop="20dp"
+                    android:textStyle="bold"
+                    android:id="@+id/experience"
+                    android:fontFamily="@font/montserrat_bols"
+                    android:textColor="@color/colorPrimaryDark">
+
+                </TextView>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textStyle="normal"
+                    android:text="Video Editing: 1 year (Preferred)"
+                    android:maxLines="12"
+                    android:layout_marginEnd="20dp"
+                    android:layout_marginStart="10dp"
+                    android:textSize="16sp"
+                    android:layout_marginTop="10dp"
+                    android:fontFamily="@font/opensans"
+                    android:id="@+id/experience_content"
+                    >
+
+                </TextView>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Education"
+                    android:textSize="19sp"
+                    android:layout_marginTop="20dp"
+                    android:textStyle="bold"
+                    android:id="@+id/education"
+                    android:fontFamily="@font/montserrat_bols"
+                    android:textColor="@color/colorPrimaryDark">
+
+                </TextView>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textStyle="normal"
+                    android:text="Bachelor's (Not Required)"
+                    android:maxLines="12"
+                    android:layout_marginEnd="20dp"
+                    android:layout_marginStart="10dp"
+                    android:textSize="16sp"
+                    android:layout_marginTop="10dp"
+                    android:fontFamily="@font/opensans"
+                    android:id="@+id/education_content"
+                    >
+
+                </TextView>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Location"
+                    android:textSize="19sp"
+                    android:layout_marginTop="20dp"
+                    android:textStyle="bold"
+                    android:id="@+id/Location"
+                    android:fontFamily="@font/montserrat_bols"
+                    android:textColor="@color/colorPrimaryDark">
+
+                </TextView>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textStyle="normal"
+                    android:text="Remote"
+                    android:maxLines="12"
+                    android:layout_marginEnd="20dp"
+                    android:layout_marginStart="10dp"
+                    android:textSize="16sp"
+                    android:layout_marginTop="10dp"
+                    android:fontFamily="@font/opensans"
+                    android:id="@+id/Location_content"
+                    >
+
+                </TextView>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Language"
+                    android:textSize="19sp"
+                    android:layout_marginTop="20dp"
+                    android:textStyle="bold"
+                    android:id="@+id/Language"
+                    android:fontFamily="@font/montserrat_bols"
+                    android:textColor="@color/colorPrimaryDark">
+
+                </TextView>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textStyle="normal"
+                    android:text="English (Required)"
+                    android:maxLines="12"
+                    android:layout_marginEnd="20dp"
+                    android:layout_marginStart="10dp"
+                    android:textSize="16sp"
+                    android:layout_marginTop="10dp"
+                    android:fontFamily="@font/opensans"
+                    android:id="@+id/Language_content">
+
+                </TextView>
+
+                <TextView
+                    android:id="@+id/xxx"
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:text="@string/empty_spaces" />
+
+
+            </LinearLayout>
+
+
+
+        </LinearLayout>
+    </ScrollView>
+
+    <Button
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:fontFamily="@font/popiins"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/button"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="40dp"
+        android:text="Apply for Internship"
+        android:id="@+id/apply"
+        android:textSize="15sp"
+        android:textAllCaps="false"
+        style="@style/Widget.AppCompat.Button.Borderless"
+        android:textColor="@android:color/white"
+        >
+
+    </Button>
+
+    <TextView
+        android:id="@+id/location"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Location: Bengalore/IN"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="10dp"
+        android:textColor="#4e74f4"
+        android:textSize="15sp"
+        android:textStyle="bold"
+        android:fontFamily="@font/popiins"
+        >
+
+    </TextView>
+
+
+
+
+</RelativeLayout>

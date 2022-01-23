@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+
+    <include
+        layout="@layout/toolbar"
+        android:id="@+id/toolbar">
+
+    </include>
+
+
+
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/account_picture"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_below="@+id/toolbar"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="60dp"
+        android:layout_marginTop="180dp"
+        android:src="@drawable/ic_account_circle_black_24dp">
+
+    </de.hdodenhof.circleimageview.CircleImageView>
+    <ImageView
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_marginStart="55dp"
+        android:layout_centerVertical="true"
+        android:layout_below="@+id/toolbar"
+        android:layout_marginTop="90dp"
+        android:id="@+id/add"
+        android:src="@drawable/ic_add_circle_black_24dp">
+
+    </ImageView>
+
+    <TextView
+        android:id="@+id/profile_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/toolbar"
+        android:layout_toEndOf="@+id/account_picture"
+        android:layout_marginStart="20dp"
+        android:layout_centerInParent="true"
+        android:layout_marginBottom="-100dp"
+        android:fontFamily="@font/opensans"
+        android:text="James Johnshon"
+        android:textColor="@android:color/black"
+        android:textSize="20sp"
+        android:textStyle="bold">
+
+    </TextView>
+
+    <LinearLayout
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/account_picture"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="40dp"
+        android:orientation="vertical">
+
+        <Button
+            android:layout_marginTop="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/profile_button_bg"
+            android:text="ABOUT ME"
+            android:id="@+id/about_me"
+            android:fontFamily="@font/popiins"
+            android:textColor="#4E74F4">
+
+        </Button>
+        <Button
+            android:layout_marginTop="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/profile_button_bg"
+            android:text="My Documents"
+            android:id="@+id/my_documents"
+            android:fontFamily="@font/popiins"
+            android:textColor="#4E74F4">
+
+        </Button>
+        <Button
+            android:layout_marginTop="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/profile_button_bg"
+            android:text="MY SOCIAL LINKS"
+            android:id="@+id/my_social_links"
+            android:fontFamily="@font/popiins"
+            android:textColor="#4E74F4">
+
+        </Button>
+
+        <Button
+            android:layout_marginTop="50dp"
+            android:layout_width="300dp"
+            android:layout_height="50dp"
+            android:background="@drawable/button"
+            android:text="DONE"
+            android:textSize="15sp"
+            android:textAllCaps="false"
+            android:id="@+id/done"
+            android:fontFamily="@font/popiins"
+            android:textColor="@android:color/white">
+
+        </Button>
+    </LinearLayout>
+
+
+</RelativeLayout>

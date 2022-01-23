@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:background="#4e74f4"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/slider"
+        android:layout_marginTop="115dp"
+        android:id="@+id/is_screen2"
+        android:layout_centerHorizontal="true">
+
+    </ImageView>
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/rect_mobile"
+        android:layout_below="@+id/is_screen2"
+        android:layout_marginTop="10dp"
+        android:layout_centerHorizontal="true">
+
+    </ImageView>
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/break_barrier"
+        android:layout_below="@+id/is_screen2"
+        android:layout_marginTop="40dp"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/break_barrier">
+
+    </ImageView>
+
+    <TextView
+        android:id="@+id/begin_carrier"
+        android:layout_width="299dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/break_barrier"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="30dp"
+        android:fontFamily="@font/popiins"
+        android:src="@drawable/begin_your_carrier"
+        android:text="Begin your carrier hassle free with our easy application process, and give yourself a headstart."
+        android:textColor="#9999"
+        android:textSize="16sp">
+
+    </TextView>
+
+
+</RelativeLayout>

@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">internstep</string>
+    <string name="Edu">Education</string>
+    <string name="gender_prompt">Gender</string>
+    <string-array name="gender">
+        <item>Gender</item>
+        <item>Male</item>
+        <item>Female</item>
+        <item>Cannot Say</item>
+    </string-array>
+    <string-array name="education">
+        <item>Education</item>
+        <item>11th Grade</item>
+        <item>12th Grade</item>
+        <item>Drop Year</item>
+        <item>1st year(College)</item>
+        <item>2nd year(College)</item>
+    </string-array>
+
+    <string name="empty_spaces">\t\t</string>
+</resources>

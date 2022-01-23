@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="128dp"
+        android:background="#FFFFFF"
+        android:textAlignment="center"
+        android:id="@+id/toolbar_social"
+        android:elevation="20dp">
+        <Button
+            android:layout_width="24dp"
+            android:layout_height="24dp"
+            style="?android:attr/borderlessButtonStyle"
+            android:id="@+id/toolbar_back_social"
+            android:background="@drawable/ic_arrow_back_black"
+            android:layout_marginTop="45dp"
+            android:layout_marginStart="40dp">
+
+        </Button>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Social"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="40dp"
+            android:textStyle="bold"
+            android:fontFamily="@font/popiins"
+            android:textSize="20sp"
+
+            />
+    </RelativeLayout>
+
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/toolbar_social"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="40dp"
+        android:id="@+id/linear_layout_social">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#f4f4f4"
+            android:id="@+id/insta">
+            <ImageView
+                android:layout_width="20dp"
+                android:layout_marginStart="20dp"
+                android:src="@drawable/github"
+                android:layout_marginTop="15dp"
+                android:layout_height="20dp">
+            </ImageView>
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:inputType="textImeMultiLine"
+                android:hint="Github"
+                android:textSize="15sp"
+                android:layout_marginStart="20dp"
+                android:background="#f4f4f4"
+                android:padding="10dp"
+                android:id="@+id/github_text"
+                android:fontFamily="@font/popiins"
+                >
+
+            </EditText>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#f4f4f4"
+            android:id="@+id/linkedin"
+            android:layout_marginTop="20dp">
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_marginStart="20dp"
+                android:src="@drawable/linkedin"
+                android:layout_marginTop="15dp"
+                android:layout_height="wrap_content">
+            </ImageView>
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:hint="LinkedIn"
+                android:textSize="15sp"
+                android:id="@+id/linkedin_text"
+                android:layout_marginStart="20dp"
+                android:background="#f4f4f4"
+                android:padding="10dp"
+                android:fontFamily="@font/popiins"
+                >
+
+            </EditText>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#f4f4f4"
+            android:id="@+id/dribble"
+            android:layout_marginTop="20dp">
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_marginStart="20dp"
+                android:src="@drawable/dribble"
+                android:layout_marginTop="15dp"
+                android:layout_height="wrap_content">
+            </ImageView>
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:hint="Dribble"
+                android:textSize="15sp"
+                android:layout_marginStart="20dp"
+                android:background="#f4f4f4"
+                android:padding="10dp"
+                android:id="@+id/dribble_text"
+                android:fontFamily="@font/popiins"
+                >
+
+            </EditText>
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="You can only add upto 3 social links"
+        android:layout_below="@+id/linear_layout_social"
+        android:layout_marginTop="80dp"
+        android:layout_centerHorizontal="true"
+        android:fontFamily="@font/opensans"
+        android:id="@+id/text_social">
+
+    </TextView>
+
+    <Button
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:background="@drawable/button"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/text_social"
+        android:text="ADD TO MY PROFILE"
+        android:fontFamily="@font/popiins"
+        android:textColor="@android:color/white"
+        android:layout_marginTop="80dp"
+        android:textSize="15sp"
+        android:textAllCaps="false"
+        android:id="@+id/submit"
+        style="@style/Widget.AppCompat.Button.Borderless">
+
+    </Button>
+</RelativeLayout>
