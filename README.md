@@ -14,6 +14,7 @@ Enables teenagers to apply for internships.
 <img src="https://raw.githubusercontent.com/ravk1234/Parking/master/screen2.jpeg" height="400" width="200"/>
 <img src="https://raw.githubusercontent.com/ravk1234/Parking/master/screen1.jpeg" height="400" width="200"/>
 </p>
+
 ## Features
 * Register using your email and easily create your profile.
 * Find internships and apply.
